@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujian Pilihan Ganda: Teori dan Efektivitas Organisasi (45 Soal)</title>
+    <style>
+        /* CSS untuk Tampilan */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #e9ecef;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            margin-bottom: 25px;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #28a745;
+            margin-top: 30px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .soal {
+            margin-bottom: 25px;
+            padding: 15px;
+            border-left: 5px solid #007bff;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+        .soal p {
+            font-weight: bold;
+            margin-top: 0;
+            line-height: 1.5;
+        }
+        .pilihan {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .pilihan label {
+            margin-bottom: 8px;
+            cursor: pointer;
+            padding: 5px;
+            border-radius: 3px;
+            transition: background-color 0.2s;
+        }
+        .pilihan label:hover {
+            background-color: #e9ecef;
+        }
+        .pilihan input[type="radio"] {
+            margin-right: 12px;
+            accent-color: #007bff;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 30px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #1e7e34;
+        }
+        #hasil {
+            margin-top: 40px;
+            padding: 25px;
+            border: 2px solid #007bff;
+            background-color: #e6f0ff;
+            border-radius: 8px;
+        }
+        #hasil h3 {
+            color: #007bff;
+            margin-top: 0;
+        }
+        .skor-text {
+            font-size: 24px;
+            font-weight: bolder;
+            color: #28a745;
+            margin-bottom: 10px;
+        }
+        .kunci-jawaban-item {
+            margin-top: 15px;
+            padding: 10px;
+            border-bottom: 1px dashed #ccc;
+        }
+        .kunci-jawaban-item:last-child {
+            border-bottom: none;
+        }
+        .status-benar { color: #28a745; font-weight: bold; }
+        .status-salah { color: #dc3545; font-weight: bold; }
+        .detail-jawaban { font-size: 14px; margin-top: 5px; }
+        .detail-jawaban span { font-weight: 600; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Ujian Pilihan Ganda: Teori dan Efektivitas Organisasi</h1>
+    <p>Silakan jawab 45 soal pilihan ganda di bawah ini. Pilih salah satu jawaban (A, B, C, atau D) untuk setiap soal.</p>
+
+    <form id="quizForm">
+        <h2>I. Perkembangan Teori Organisasi</h2>
+        <div class="soal">
+            <p>1. Perbedaan yang mendasar antara Pendekatan Modern dengan Pendekatan Klasik dan Neoklasik adalah bahwa Pendekatan Modern memandang organisasi sebagai...</p>
+            <div class="pilihan">
+                <input type="radio" name="q1" value="A" id="q1a"> <label for="q1a">A. Sistem yang kaku dan mekanistis.</label><br>
+                <input type="radio" name="q1" value="B" id="q1b"> <label for="q1b">B. Sistem terbuka, yang merupakan bagian (subsistem) dari lingkungannya.</label><br>
+                <input type="radio" name="q1" value="C" id="q1c"> <label for="q1c">C. Sistem yang hanya fokus pada aspek sosial.</label><br>
+                <input type="radio" name="q1" value="D" id="q1d"> <label for="q1d">D. Sistem tertutup yang tidak dipengaruhi oleh keadaan lingkungannya.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>2. Konsekuensi dari pandangan Pendekatan Modern terhadap organisasi (sistem terbuka) adalah...</p>
+            <div class="pilihan">
+                <input type="radio" name="q2" value="A" id="q2a"> <label for="q2a">A. Struktur organisasi bersifat universal dan dapat diterapkan di semua kondisi.</label><br>
+                <input type="radio" name="q2" value="B" id="q2b"> <label for="q2b">B. Organisasi hanya perlu memperhatikan anatomi formalnya.</label><br>
+                <input type="radio" name="q2" value="C" id="q2c"> <label for="q2c">C. Tidak ada bentuk organisasi ideal yang berlaku secara umum (universal) di sebarang tempat/kondisi.</label><br>
+                <input type="radio" name="q2" value="D" id="q2d"> <label for="q2d">D. Fokus utama adalah menanamkan kesadaran pada para karyawan.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>3. Pendekatan yang memfokuskan perhatian pada anatomi dan struktur formal organisasi, serta memandang manusia sebagai makhluk rasional yang tidak mempunyai aspek sosial adalah...</p>
+            <div class="pilihan">
+                <input type="radio" name="q3" value="A" id="q3a"> <label for="q3a">A. Pendekatan Modern.</label><br>
+                <input type="radio" name="q3" value="B" id="q3b"> <label for="q3b">B. Pendekatan Klasik.</label><br>
+                <input type="radio" name="q3" value="C" id="q3c"> <label for="q3c">C. Pendekatan Kontingensi.</label><br>
+                <input type="radio" name="q3" value="D" id="q3d"> <label for="q3d">D. Pendekatan Neoklasik.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>4. Pendekatan Neoklasik atau Human Relations lahir sebagai hasil dari eksperimen...</p>
+            <div class="pilihan">
+                <input type="radio" name="q4" value="A" id="q4a"> <label for="q4a">A. Percobaan Taylor.</label><br>
+                <input type="radio" name="q4" value="B" id="q4b"> <label for="q4b">B. Percobaan Barnard.</label><br>
+                <input type="radio" name="q4" value="C" id="q4c"> <label for="q4c">C. Percobaan Hawthorne.</label><br>
+                <input type="radio" name="q4" value="D" id="q4d"> <label for="q4d">D. Percobaan Fayol.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>5. Perhatian utama Pendekatan Neoklasik tertumpu pada aspek hubungan antarmanusia karena memandang organisasi sebagai...</p>
+            <div class="pilihan">
+                <input type="radio" name="q5" value="A" id="q5a"> <label for="q5a">A. Struktur hirarkis yang kaku.</label><br>
+                <input type="radio" name="q5" value="B" id="q5b"> <label for="q5b">B. Kumpulan prosedur yang ketat.</label><br>
+                <input type="radio" name="q5" value="C" id="q5c"> <label for="q5c">C. Suatu sistem sosial, di mana hubungan antar anggotanya merupakan interaksi sosial.</label><br>
+                <input type="radio" name="q5" value="D" id="q5d"> <label for="q5d">D. Suatu sistem mekanistis yang harus dioptimalkan efisiensinya.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>6. Hal yang sering kali dipandang sebagai kelemahan utama Pendekatan Neoklasik adalah...</p>
+            <div class="pilihan">
+                <input type="radio" name="q6" value="A" id="q6a"> <label for="q6a">A. Mengabaikan aspek sosial.</label><br>
+                <input type="radio" name="q6" value="B" id="q6b"> <label for="q6b">B. Terlalu memperhatikan lingkungan.</label><br>
+                <input type="radio" name="q6" value="C" id="q6c"> <label for="q6c">C. Kurang memperhatikan struktur pembagian tugas atau anatomi organisasi.</label><br>
+                <input type="radio" name="q6" value="D" id="q6d"> <label for="q6d">D. Memiliki kecenderungan yang "menyebar" dari pendekatan lain.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>7. Pendekatan yang dipandang mampu menyatukan keseluruhan pandangan dalam analisis organisasi (Klasik dan Neoklasik) adalah...</p>
+            <div class="pilihan">
+                <input type="radio" name="q7" value="A" id="q7a"> <label for="q7a">A. Pendekatan Sistem Tertutup.</label><br>
+                <input type="radio" name="q7" value="B" id="q7b"> <label for="q7b">B. Pendekatan Rasional.</label><br>
+                <input type="radio" name="q7" value="C" id="q7c"> <label for="q7c">C. Pendekatan Modern.</label><br>
+                <input type="radio" name="q7" value="D" id="q7d"> <label for="q7d">D. Pendekatan Struktur Formal.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>8. Penelitian yang dilakukan oleh Joan Woodward pada tahun 1950-an menyimpulkan bahwa karakteristik organisasi yang sukses dipengaruhi oleh...</p>
+            <div class="pilihan">
+                <input type="radio" name="q8" value="A" id="q8a"> <label for="q8a">A. Ukuran perusahaan.</label><br>
+                <input type="radio" name="q8" value="B" id="q8b"> <label for="q8b">B. Jenis teknologi yang digunakan.</label><br>
+                <input type="radio" name="q8" value="C" id="q8c"> <label for="q8c">C. Tingkat sentralisasi.</label><br>
+                <input type="radio" name="q8" value="D" id="q8d"> <label for="q8d">D. Iklim organisasi.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>9. Pendekatan Modern kadang-kadang disebut juga sebagai pendekatan "ketergantungan" (contingency) karena...</p>
+            <div class="pilihan">
+                <input type="radio" name="q9" value="A" id="q9a"> <label for="q9a">A. Selalu bergantung pada hasil percobaan ilmiah.</label><br>
+                <input type="radio" name="q9" value="B" id="q9b"> <label for="q9b">B. Hanya bergantung pada pimpinan organisasi.</label><br>
+                <input type="radio" name="q9" value="C" id="q9c"> <label for="q9c">C. Bentuk dan cara pengelolaan organisasi harus disesuaikan dengan atau "tergantung" pada kondisi lingkungannya.</label><br>
+                <input type="radio" name="q9" value="D" id="q9d"> <label for="q9d">D. Tergantung pada keinginan pemilik modal saja.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>10. Salah satu prinsip Pendekatan Neoklasik adalah bahwa interaksi sosial menyebabkan munculnya kelompok non-formal yang memiliki...</p>
+            <div class="pilihan">
+                <input type="radio" name="q10" value="A" id="q10a"> <label for="q10a">A. Aturan pemerintah yang ketat.</label><br>
+                <input type="radio" name="q10" value="B" id="q10b"> <label for="q10b">B. Struktur formal yang kaku.</label><br>
+                <input type="radio" name="q10" value="C" id="q10c"> <label for="q10c">C. Norma tersendiri yang berlaku dan merupakan pegangan bagi anggota kelompok.</label><br>
+                <input type="radio" name="q10" value="D" id="q10d"> <label for="q10d">D. Kesadaran untuk taat pada semua peraturan organisasi.</label>
+            </div>
+        </div>
+
+        <h2>II. Lingkungan Organisasi dan Ketidakpastian</h2>
+        <div class="soal">
+            <p>11. Sifat lingkungan yang paling berpeluang untuk membahayakan atau merugikan organisasi adalah...</p>
+            <div class="pilihan">
+                <input type="radio" name="q11" value="A" id="q11a"> <label for="q11a">A. Kompleksitas yang tinggi.</label><br>
+                <input type="radio" name="q11" value="B" id="q11b"> <label for="q11b">B. Tingkat ketidakpastian lingkungan.</label><br>
+                <input type="radio" name="q11" value="C" id="q11c"> <label for="q11c">C. Stabilitas yang tinggi.</label><br>
+                <input type="radio" name="q11" value="D" id="q11d"> <label for="q11d">D. Lingkungan yang sederhana.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>12. Ketidakpastian (uncertainty) lingkungan menunjukkan keadaan di mana organisasi...</p>
+            <div class="pilihan">
+                <input type="radio" name="q12" value="A" id="q12a"> <label for="q12a">A. Mengalami perubahan struktur secara drastis.</label><br>
+                <input type="radio" name="q12" value="B" id="q12b"> <label for="q12b">B. Mencapai performansi yang maksimal.</label><br>
+                <input type="radio" name="q12" value="C" id="q12c"> <label for="q12c">C. Tidak mempunyai informasi yang cukup mengenai keadaan lingkungannya.</label><br>
+                <input type="radio" name="q12" value="D" id="q12d"> <label for="q12d">D. Beroperasi pada lingkungan yang sangat stabil.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>13. Menurut Robert Duncan, dua dimensi yang digunakan untuk menganalisis ketidakpastian lingkungan adalah...</p>
+            <div class="pilihan">
+                <input type="radio" name="q13" value="A" id="q13a"> <label for="q13a">A. Diferensiasi dan Integrasi.</label><br>
+                <input type="radio" name="q13" value="B" id="q13b"> <label for="q13b">B. Sentralisasi dan Formalitas.</label><br>
+                <input type="radio" name="q13" value="C" id="q13c"> <label for="q13c">C. Kompleksitas dan Stabilitas.</label><br>
+                <input type="radio" name="q13" value="D" id="q13d"> <label for="q13d">D. Skala dan Teknologi.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>14. Dimensi Kompleksitas (keragaman) lingkungan menunjukkan...</p>
+            <div class="pilihan">
+                <input type="radio" name="q14" value="A" id="q14a"> <label for="q14a">A. Kecepatan perubahan yang terjadi pada elemen-elemen lingkungan.</label><br>
+                <input type="radio" name="q14" value="B" id="q14b"> <label for="q14b">B. Heterogenitas atau banyaknya elemen-elemen eksternal yang berpengaruh terhadap organisasi.</label><br>
+                <input type="radio" name="q14" value="C" id="q14c"> <label for="q14c">C. Tingkat sentralisasi pengambilan keputusan.</label><br>
+                <input type="radio" name="q14" value="D" id="q14d"> <label for="q14d">D. Jumlah produk yang dihasilkan organisasi.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>15. Suatu lingkungan dinyatakan sebagai lingkungan yang sederhana jika elemen lingkungan yang berpengaruh terhadap organisasi paling banyak berjumlah...</p>
+            <div class="pilihan">
+                <input type="radio" name="q15" value="A" id="q15a"> <label for="q15a">A. 1 atau 2 elemen.</label><br>
+                <input type="radio" name="q15" value="B" id="q15b"> <label for="q15b">B. 3 atau 4 elemen.</label><br>
+                <input type="radio" name="q15" value="C" id="q15c"> <label for="q15c">C. Lebih dari 10 elemen.</label><br>
+                <input type="radio" name="q15" value="D" id="q15d"> <label for="q15d">D. Hanya elemen pasar saja.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>16. Lingkungan yang menggambarkan kecepatan perubahan yang terjadi pada elemen-elemen lingkungan (meliputi sangat stabil hingga sangat tidak stabil) adalah dimensi...</p>
+            <div class="pilihan">
+                <input type="radio" name="q16" value="A" id="q16a"> <label for="q16a">A. Kompleksitas.</label><br>
+                <input type="radio" name="q16" value="B" id="q16b"> <label for="q16b">B. Stabilitas.</label><br>
+                <input type="radio" name="q16" value="C" id="q16c"> <label for="q16c">C. Heterogenitas.</label><br>
+                <input type="radio" name="q16" value="D" id="q16d"> <label for="q16d">D. Diferensiasi.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>17. Tingkat ketidakpastian yang paling rendah terjadi pada lingkungan yang memiliki karakteristik...</p>
+            <div class="pilihan">
+                <input type="radio" name="q17" value="A" id="q17a"> <label for="q17a">A. Kompleks dan Tidak Stabil.</label><br>
+                <input type="radio" name="q17" value="B" id="q17b"> <label for="q17b">B. Sederhana dan Tidak Stabil.</label><br>
+                <input type="radio" name="q17" value="C" id="q17c"> <label for="q17c">C. Kompleks dan Stabil.</label><br>
+                <input type="radio" name="q17" value="D" id="q17d"> <label for="q17d">D. Sederhana dan Stabil.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>18. Pada lingkungan yang stabil, organisasi cenderung akan mempunyai struktur internal dan prosedur yang...</p>
+            <div class="pilihan">
+                <input type="radio" name="q18" value="A" id="q18a"> <label for="q18a">A. Organik.</label><br>
+                <input type="radio" name="q18" value="B" id="q18b"> <label for="q18b">B. Fleksibel.</label><br>
+                <input type="radio" name="q18" value="C" id="q18c"> <label for="q18c">C. Mekanistik.</label><br>
+                <input type="radio" name="q18" value="D" id="q18d"> <label for="q18d">D. Terdesentralisasi.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>19. Apabila lingkungan menjadi tidak stabil, struktur organisasi akan menjadi kurang formal dan tingkat sentralisasinya menurun, sehingga organisasi cenderung bersifat...</p>
+            <div class="pilihan">
+                <input type="radio" name="q19" value="A" id="q19a"> <label for="q19a">A. Mekanistik.</label><br>
+                <input type="radio" name="q19" value="B" id="q19b"> <label for="q19b">B. Organik.</label><br>
+                <input type="radio" name="q19" value="C" id="q19c"> <label for="q19c">C. Birokratik.</label><br>
+                <input type="radio" name="q19" value="D" id="q19d"> <label for="q19d">D. Rasional.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>20. Pada lingkungan yang Kompleks dan Stabil, ketidakpastian yang dihadapi organisasi dianggap agak lebih besar dari lingkungan sederhana-stabil karena...</p>
+            <div class="pilihan">
+                <input type="radio" name="q20" value="A" id="q20a"> <label for="q20a">A. Elemen-elemen lingkungan selalu berubah secara drastis.</label><br>
+                <input type="radio" name="q20" value="B" id="q20b"> <label for="q20b">B. Terdapat lebih banyak elemen lingkungan yang perlu diperhatikan dan dianalisis.</label><br>
+                <input type="radio" name="q20" value="C" id="q20c"> <label for="q20c">C. Struktur organisasi harus sepenuhnya organik.</label><br>
+                <input type="radio" name="q20" value="D" id="q20d"> <label for="q20d">D. Organisasi memerlukan pimpinan tunggal yang kuat.</label>
+            </div>
+        </div>
+
+        <h2>III. Efektivitas dan Sasaran Organisasi</h2>
+        <div class="soal">
+            <p>21. Kondisi di mana suatu organisasi bisa memuaskan orang-orang atau organisasi lain di lingkungannya (misalnya kepuasan konsumen atau pengakuan) disebut...</p>
+            <div class="pilihan">
+                <input type="radio" name="q21" value="A" id="q21a"> <label for="q21a">A. Sasaran Output.</label><br>
+                <input type="radio" name="q21" value="B" id="q21b"> <label for="q21b">B. Sasaran Lingkungan (Environmental Goal).</label><br>
+                <input type="radio" name="q21" value="C" id="q21c"> <label for="q21c">C. Sasaran Sistem.</label><br>
+                <input type="radio" name="q21" value="D" id="q21d"> <label for="q21d">D. Sasaran Produk.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>22. Sasaran aktual yang mencerminkan jenis usaha yang dilakukan oleh organisasi serta bentuk dan banyaknya output yang akan dihasilkan adalah...</p>
+            <div class="pilihan">
+                <input type="radio" name="q22" value="A" id="q22a"> <label for="q22a">A. Sasaran Lingkungan.</label><br>
+                <input type="radio" name="q22" value="B" id="q22b"> <label for="q22b">B. Sasaran Output (Output Goal).</label><br>
+                <input type="radio" name="q22" value="C" id="q22c"> <label for="q22c">C. Sasaran Sistem.</label><br>
+                <input type="radio" name="q22" value="D" id="q22d"> <label for="q22d">D. Sasaran Produk.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>23. Sasaran yang berhubungan dengan pemeliharaan atau perawatan (maintenance) organisasi sendiri, yang menggambarkan ukuran, bentuk, dan iklim organisasi yang dikehendaki, adalah...</p>
+            <div class="pilihan">
+                <input type="radio" name="q23" value="A" id="q23a"> <label for="q23a">A. Sasaran Lingkungan.</label><br>
+                <input type="radio" name="q23" value="B" id="q23b"> <label for="q23b">B. Sasaran Output.</label><br>
+                <input type="radio" name="q23" value="C" id="q23c"> <label for="q23c">C. Sasaran Sistem (System Goal).</label><br>
+                <input type="radio" name="q23" value="D" id="q23d"> <label for="q23d">D. Sasaran Produk.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>24. Penetapan mutu, jenis, corak, dan karakteristik lainnya yang menggambarkan ciri-ciri produk ataupun jasa yang ditawarkan termasuk dalam...</p>
+            <div class="pilihan">
+                <input type="radio" name="q24" value="A" id="q24a"> <label for="q24a">A. Sasaran Bagian.</label><br>
+                <input type="radio" name="q24" value="B" id="q24b"> <label for="q24b">B. Sasaran Output.</label><br>
+                <input type="radio" name="q24" value="C" id="q24c"> <label for="q24c">C. Sasaran Sistem.</label><br>
+                <input type="radio" name="q24" value="D" id="q24d"> <label for="q24d">D. Sasaran Produk (Product Goal).</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>25. Sasaran dari suatu bagian atau satuan kerja (sub-unit goal) berfungsi sebagai alat untuk mencapai...</p>
+            <div class="pilihan">
+                <input type="radio" name="q25" value="A" id="q25a"> <label for="q25a">A. Sasaran Lingkungan atau Sasaran Produk.</label><br>
+                <input type="radio" name="q25" value="B" id="q25b"> <label for="q25b">B. Sasaran Output atau Sasaran Sistem dari suatu organisasi.</label><br>
+                <input type="radio" name="q25" value="C" id="q25c"> <label for="q25c">C. Sasaran Jangka Panjang dan Sasaran Jangka Pendek.</label><br>
+                <input type="radio" name="q25" value="D" id="q25d"> <label for="q25d">D. Kultur dan nilai-nilai pimpinan.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>26. Dalam menangani berbagai sasaran yang saling berlawanan, cara di mana organisasi menerima performansi yang secukupnya, tidak mengusahakan yang paling baik, asalkan semua sasaran bisa dikelola secara simultan, disebut...</p>
+            <div class="pilihan">
+                <input type="radio" name="q26" value="A" id="q26a"> <label for="q26a">A. Sequential Attention.</label><br>
+                <input type="radio" name="q26" value="B" id="q26b"> <label for="q26b">B. Goal Changes.</label><br>
+                <input type="radio" name="q26" value="C" id="q26c"> <label for="q26c">C. Preference Ordering.</label><br>
+                <input type="radio" name="q26" value="D" id="q26d"> <label for="q26d">D. Satisfying.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>27. Cara Sequential Attention (perhatian bertahap) dalam menghadapi sasaran berlawanan dilakukan dengan...</p>
+            <div class="pilihan">
+                <input type="radio" name="q27" value="A" id="q27a"> <label for="q27a">A. Mengubah sasaran secara periodik.</label><br>
+                <input type="radio" name="q27" value="B" id="q27b"> <label for="q27b">B. Menerima performansi yang secukupnya.</label><br>
+                <input type="radio" name="q27" value="C" id="q27c"> <label for="q27c">C. Terlebih dahulu mencapai sasaran yang paling penting, kemudian beralih ke sasaran lainnya secara berurutan.</label><br>
+                <input type="radio" name="q27" value="D" id="q27d"> <label for="q27d">D. Mengajukan sasaran ke pimpinan tunggal untuk diprioritaskan.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>28. Jika waktu yang tersedia sangat terbatas untuk menangani sasaran yang saling berlawanan, cara yang membuka kemungkinan untuk mencapai hasil maksimal pada setiap sasaran yang harus dipenuhi adalah...</p>
+            <div class="pilihan">
+                <input type="radio" name="q28" value="A" id="q28a"> <label for="q28a">A. Satisfying.</label><br>
+                <input type="radio" name="q28" value="B" id="q28b"> <label for="q28b">B. Perhatian Bertahap (Sequential Attention).</label><br>
+                <input type="radio" name="q28" value="C" id="q28c"> <label for="q28c">C. Perubahan Sasaran (Goal Changes).</label><br>
+                <input type="radio" name="q28" value="D" id="q28d"> <label for="q28d">D. Penetapan Pilihan (Preference Ordering).</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>29. Aspek yang perlu mendapat perhatian karena sangat memengaruhi pilihan sasaran organisasi, selain nilai-nilai pimpinan dan anggota, adalah...</p>
+            <div class="pilihan">
+                <input type="radio" name="q29" value="A" id="q29a"> <label for="q29a">A. Ukuran organisasi.</label><br>
+                <input type="radio" name="q29" value="B" id="q29b"> <label for="q29b">B. Teknologi yang digunakan.</label><br>
+                <input type="radio" name="q29" value="C" id="q29c"> <label for="q29c">C. Kultur organisasi.</label><br>
+                <input type="radio" name="q29" value="D" id="q29d"> <label for="q29d">D. Tingkat kompleksitas lingkungan.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>30. Penetapan sasaran yang dilakukan oleh seorang pimpinan tertinggi saja, terutama terjadi pada...</p>
+            <div class="pilihan">
+                <input type="radio" name="q30" value="A" id="q30a"> <label for="q30a">A. Perusahaan multinasional.</label><br>
+                <input type="radio" name="q30" value="B" id="q30b"> <label for="q30b">B. Perusahaan berukuran kecil, di mana pimpinan tertinggi dipegang oleh pemilik perusahaan.</label><br>
+                <input type="radio" name="q30" value="C" id="q30c"> <label for="q30c">C. Organisasi nirlaba yang didominasi donatur.</label><br>
+                <input type="radio" name="q30" value="D" id="q30d"> <label for="q30d">D. Perguruan tinggi ternama.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>31. Proses tawar-menawar untuk menghasilkan sasaran yang dapat diterima oleh semua pihak di antara anggota kelompok pimpinan yang semula pandangannya saling berbeda, disebut...</p>
+            <div class="pilihan">
+                <input type="radio" name="q31" value="A" id="q31a"> <label for="q31a">A. Penetapan Pilihan (Preference Ordering).</label><br>
+                <input type="radio" name="q31" value="B" id="q31b"> <label for="q31b">B. Koalisi Kelompok Pimpinan.</label><br>
+                <input type="radio" name="q31" value="C" id="q31c"> <label for="q31c">C. Perubahan Sasaran (Goal Changes).</label><br>
+                <input type="radio" name="q31" value="D" id="q31d"> <label for="q31d">D. Sequential Attention.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>32. Tujuan dari Perubahan Sasaran (Goal Changes) adalah...</p>
+            <div class="pilihan">
+                <input type="radio" name="q32" value="A" id="q32a"> <label for="q32a">A. Mencapai performansi yang secukupnya.</label><br>
+                <input type="radio" name="q32" value="B" id="q32b"> <label for="q32b">B. Menghilangkan ketergantungan terhadap lingkungan.</label><br>
+                <input type="radio" name="q32" value="C" id="q32c"> <label for="q32c">C. Menyesuaikan diri secara lebih baik terhadap tuntutan lingkungannya.</label><br>
+                <input type="radio" name="q32" value="D" id="q32d"> <label for="q32d">D. Menetapkan prioritas sasaran yang harus didahulukan.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>33. Jenis sasaran aktual yang menunjukkan bahwa sebuah organisasi menyesuaikan diri terhadap kondisi lingkungannya adalah...</p>
+            <div class="pilihan">
+                <input type="radio" name="q33" value="A" id="q33a"> <label for="q33a">A. Sasaran Sistem dan Sasaran Produk.</label><br>
+                <input type="radio" name="q33" value="B" id="q33b"> <label for="q33b">B. Sasaran Bagian dan Sasaran Output.</label><br>
+                <input type="radio" name="q33" value="C" id="q33c"> <label for="q33c">C. Sasaran Lingkungan dan Sasaran Output.</label><br>
+                <input type="radio" name="q33" value="D" id="q33d"> <label for="q33d">D. Sasaran Sistem dan Sasaran Bagian.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>34. Pemberian kemudahan tertentu dari pejabat pemerintah yang dulunya merupakan pengajar, sebagai hasil koalisi di perguruan tinggi, digunakan untuk...</p>
+            <div class="pilihan">
+                <input type="radio" name="q34" value="A" id="q34a"> <label for="q34a">A. Mencapai sasaran output yang unik.</label><br>
+                <input type="radio" name="q34" value="B" id="q34b"> <label for="q34b">B. Perbaikan proses pengajaran serta pengembangan keilmuan.</label><br>
+                <input type="radio" name="q34" value="C" id="q34c"> <label for="q34c">C. Menerapkan sistem dan prosedur yang ketat.</label><br>
+                <input type="radio" name="q34" value="D" id="q34d"> <label for="q34d">D. Meningkatkan gaji kelompok pimpinan.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>35. Pada cara Preference Ordering, pimpinan tertinggi organisasi telah menetapkan...</p>
+            <div class="pilihan">
+                <input type="radio" name="q35" value="A" id="q35a"> <label for="q35a">A. Perubahan sasaran secara periodik.</label><br>
+                <input type="radio" name="q35" value="B" id="q35b"> <label for="q35b">B. Prioritas sasaran sehingga setiap anggota organisasi mengetahui sasaran yang harus didahulukan.</label><br>
+                <input type="radio" name="q35" value="C" id="q35c"> <label for="q35c">C. Performansi yang secukupnya (satisfying).</label><br>
+                <input type="radio" name="q35" value="D" id="q35d"> <label for="q35d">D. Hubungan baik dengan elemen lingkungan.</label>
+            </div>
+        </div>
+
+        <h2>IV. Pengaturan Perilaku dan Pengendalian Lingkungan</h2>
+        <div class="soal">
+            <p>36. Cara pertama dalam mengatur anggota organisasi agar berperilaku tertentu adalah dengan...</p>
+            <div class="pilihan">
+                <input type="radio" name="q36" value="A" id="q36a"> <label for="q36a">A. Menerapkan sistem dan prosedur yang ketat.</label><br>
+                <input type="radio" name="q36" value="B" id="q36b"> <label for="q36b">B. Menggunakan pendekatan makro.</label><br>
+                <input type="radio" name="q36" value="C" id="q36c"> <label for="q36c">C. Mengajarkan atau menanamkan kesadaran agar taat pada peraturan.</label><br>
+                <input type="radio" name="q36" value="D" id="q36d"> <label for="q36d">D. Hanya memperhatikan kelakuan anggota secara individual.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>37. Pendekatan yang sifatnya "makro" karena perhatiannya terutama pada rancangan bentuk besar organisasi yang disesuaikan dengan kondisi lingkungannya tergolong dalam cara pengaturan perilaku yang...</p>
+            <div class="pilihan">
+                <input type="radio" name="q37" value="A" id="q37a"> <label for="q37a">A. Pertama (menanamkan kesadaran).</label><br>
+                <input type="radio" name="q37" value="B" id="q37b"> <label for="q37b">B. Kedua (menerapkan sistem dan prosedur ketat).</label><br>
+                <input type="radio" name="q37" value="C" id="q37c"> <label for="q37c">C. Pendekatan Klasik.</label><br>
+                <input type="radio" name="q37" value="D" id="q37d"> <label for="q37d">D. Pendekatan Neoklasik.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>38. Selain beradaptasi, organisasi juga bisa berusaha mengubah kondisi lingkungannya sehingga bisa menguasai atau mengendalikan lingkungannya. Tindakan ini disebut...</p>
+            <div class="pilihan">
+                <input type="radio" name="q38" value="A" id="q38a"> <label for="q38a">A. Diferensiasi.</label><br>
+                <input type="radio" name="q38" value="B" id="q38b"> <label for="q38b">B. Integrasi.</label><br>
+                <input type="radio" name="q38" value="C" id="q38c"> <label for="q38c">C. Mengendalikan Lingkungan.</label><br>
+                <input type="radio" name="q38" value="D" id="q38d"> <label for="q38d">D. Perencanaan.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>39. Cara penciptaan hubungan yang paling baik karena dapat menghilangkan ketergantungan organisasi terhadap elemen-elemen lingkungannya adalah...</p>
+            <div class="pilihan">
+                <input type="radio" name="q39" value="A" id="q39a"> <label for="q39a">A. Perencanaan dan peramalan.</label><br>
+                <input type="radio" name="q39" value="B" id="q39b"> <label for="q39b">B. Integrasi melalui merger (penggabungan).</label><br>
+                <input type="radio" name="q39" value="C" id="q39c"> <label for="q39c">C. Memperkerjakan manajer yang berorientasi sosial.</label><br>
+                <input type="radio" name="q39" value="D" id="q39d"> <label for="q39d">D. Menciptakan bagian pembatas (buffering).</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>40. Jika pengadaan bahan baku sulit, organisasi dapat membeli perusahaan yang merupakan pemasok bahan baku. Cara ini dinamakan...</p>
+            <div class="pilihan">
+                <input type="radio" name="q40" value="A" id="q40a"> <label for="q40a">A. Integrasi horizontal.</label><br>
+                <input type="radio" name="q40" value="B" id="q40b"> <label for="q40b">B. Integrasi vertikal.</label><br>
+                <input type="radio" name="q40" value="C" id="q40c"> <label for="q40c">C. Diferensiasi teknologi.</label><br>
+                <input type="radio" name="q40" value="D" id="q40d"> <label for="q40d">D. Satisfying.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>41. Tingginya tingkat diferensiasi (perbedaan sasaran, orientasi, dan formalitas antarbagian) pada lingkungan yang penuh ketidakpastian menyebabkan sulitnya...</p>
+            <div class="pilihan">
+                <input type="radio" name="q41" value="A" id="q41a"> <label for="q41a">A. Penetapan Sasaran Lingkungan.</label><br>
+                <input type="radio" name="q41" value="B" id="q41b"> <label for="q41b">B. Perubahan Sasaran (Goal Changes).</label><br>
+                <input type="radio" name="q41" value="C" id="q41c"> <label for="q41c">C. Pengkoordinasian bagian-bagian.</label><br>
+                <input type="radio" name="q41" value="D" id="q41d"> <label for="q41d">D. Penerapan sistem dan prosedur.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>42. Pihak yang berfungsi sebagai penanggung jawab pertukaran informasi dan menjembatani perbedaan antarbagian, terutama di lingkungan yang penuh ketidakpastian, adalah...</p>
+            <div class="pilihan">
+                <input type="radio" name="q42" value="A" id="q42a"> <label for="q42a">A. Sub-unit Goal.</label><br>
+                <input type="radio" name="q42" value="B" id="q42b"> <label for="q42b">B. Top Manager.</label><br>
+                <input type="radio" name="q42" value="C" id="q42c"> <label for="q42c">C. Integrator.</label><br>
+                <input type="radio" name="q42" value="D" id="q42d"> <label for="q42d">D. External Consultant.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>43. Menurut Tabel 2.2, bagian organisasi yang memiliki Horizon Waktu Panjang dan Formalitas Struktur Rendah adalah...</p>
+            <div class="pilihan">
+                <input type="radio" name="q43" value="A" id="q43a"> <label for="q43a">A. Bagian Produksi.</label><br>
+                <input type="radio" name="q43" value="B" id="q43b"> <label for="q43b">B. Bagian Pemasaran.</label><br>
+                <input type="radio" name="q43" value="C" id="q43c"> <label for="q43c">C. Bagian Penelitian dan Pengembangan.</label><br>
+                <input type="radio" name="q43" value="D" id="q43d"> <label for="q43d">D. Bagian Keuangan.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>44. Menurut Tabel 2.2, bagian organisasi yang memiliki sasaran utama Kepuasan Konsumen dan Jenis Hubungan Interpersonal bersifat Sosial adalah...</p>
+            <div class="pilihan">
+                <input type="radio" name="q44" value="A" id="q44a"> <label for="q44a">A. Bagian Penelitian dan Pengembangan.</label><br>
+                <input type="radio" name="q44" value="B" id="q44b"> <label for="q44b">B. Bagian Produksi.</label><br>
+                <input type="radio" name="q44" value="C" id="q44c"> <label for="q44c">C. Bagian Pemasaran.</label><br>
+                <input type="radio" name="q44" value="D" id="q44d"> <label for="q44d">D. Bagian Administrasi.</label>
+            </div>
+        </div>
+        <div class="soal">
+            <p>45. Pada lingkungan yang sederhana dan tidak stabil, yang perlu diperhatikan sebenarnya jumlahnya sedikit, tetapi...</p>
+            <div class="pilihan">
+                <input type="radio" name="q45" value="A" id="q45a"> <label for="q45a">A. Selalu stabil selama bertahun-tahun.</label><br>
+                <input type="radio" name="q45" value="B" id="q45b"> <label for="q45b">B. Selalu bersifat organik.</label><br>
+                <input type="radio" name="q45" value="C" id="q45c"> <label for="q45c">C. Selalu berubah, dan perubahan ini sangat berpengaruh terhadap ketidakpastian.</label><br>
+                <input type="radio" name="q45" value="D" id="q45d"> <label for="q45d">D. Tidak pernah memerlukan perencanaan dan peramalan.</label>
+            </div>
+        </div>
+        
+        <button type="button" onclick="hitungSkor()">Selesai Ujian & Lihat Hasil</button>
+    </form>
+
+    <div id="hasil"></div>
+</div>
+
+<script>
+    // JavaScript untuk Logika Ujian
+    const kunciJawaban = {
+        // I. Perkembangan Teori Organisasi
+        q1: 'B', q2: 'C', q3: 'B', q4: 'C', q5: 'C',
+        q6: 'C', q7: 'C', q8: 'B', q9: 'C', q10: 'C',
+        // II. Lingkungan Organisasi dan Ketidakpastian
+        q11: 'B', q12: 'C', q13: 'C', q14: 'B', q15: 'B',
+        q16: 'B', q17: 'D', q18: 'C', q19: 'B', q20: 'B',
+        // III. Efektivitas dan Sasaran Organisasi
+        q21: 'B', q22: 'B', q23: 'C', q24: 'D', q25: 'B',
+        q26: 'D', q27: 'C', q28: 'B', q29: 'C', q30: 'B',
+        q31: 'B', q32: 'C', q33: 'C', q34: 'B', q35: 'B',
+        // IV. Pengaturan Perilaku dan Pengendalian Lingkungan
+        q36: 'C', q37: 'B', q38: 'C', q39: 'B', q40: 'B',
+        q41: 'C', q42: 'C', q43: 'C', q44: 'C', q45: 'C'
+    };
+    const jumlahSoal = Object.keys(kunciJawaban).length;
+
+    function hitungSkor() {
+        const form = document.getElementById('quizForm');
+        let skor = 0;
+        let jawabanPengguna = {};
+        
+        // Menghitung Skor
+        for (let i = 1; i <= jumlahSoal; i++) {
+            const namaSoal = 'q' + i;
+            // Mengambil nilai radio button yang terpilih
+            const jawabanTerpilihElement = form.elements[namaSoal].value;
+            jawabanPengguna[namaSoal] = jawabanTerpilihElement;
+
+            if (jawabanTerpilihElement === kunciJawaban[namaSoal]) {
+                skor++;
+            }
+        }
+        
+        // Menampilkan Hasil
+        const persen = (skor / jumlahSoal) * 100;
+        let hasilHTML = "<h3>Hasil Ujian Anda</h3>";
+        hasilHTML += `<p class="skor-text">Skor: ${skor} dari ${jumlahSoal}</p>`;
+        hasilHTML += `<p>Persentase Benar: <strong>${persen.toFixed(2)}%</strong></p>`;
+        
+        // Menampilkan Kunci Jawaban
+        hasilHTML += "<h3>Detail Jawaban</h3>";
+        for (let i = 1; i <= jumlahSoal; i++) {
+            const namaSoal = 'q' + i;
+            const jawabanBenar = kunciJawaban[namaSoal];
+            const jawabanAnda = jawabanPengguna[namaSoal] || '- Belum Dijawab -';
+            
+            const statusClass = jawabanAnda === jawabanBenar ? 'status-benar' : 'status-salah';
+            const statusText = jawabanAnda === jawabanBenar ? 'BENAR' : 'SALAH';
+
+            // Mendapatkan teks soal dari HTML
+            const soalElement = document.querySelector(`input[name="${namaSoal}"]`).closest('.soal');
+            const teksSoal = soalElement ? soalElement.querySelector('p').textContent : `Soal ${i}`;
+
+
+            hasilHTML += `<div class="kunci-jawaban-item">`;
+            hasilHTML += `<p><strong>${teksSoal}</strong> <span class="${statusClass}">[${statusText}]</span></p>`;
+            hasilHTML += `<div class="detail-jawaban">`;
+            hasilHTML += `Jawaban Benar: <span>${jawabanBenar}</span><br>`;
+            hasilHTML += `Jawaban Anda: <span>${jawabanAnda}</span>`;
+            hasilHTML += `</div>`;
+            hasilHTML += `</div>`;
+        }
+
+        document.getElementById('hasil').innerHTML = hasilHTML;
+    }
+</script>
+
+</body>
+</html>
